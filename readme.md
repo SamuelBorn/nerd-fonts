@@ -198,6 +198,14 @@ Download the specific [patched font](#patched-fonts) of your choice
 
 Fonts are available for download as packages in the [latest release](https://github.com/ryanoasis/nerd-fonts/releases/latest)
 
+If you want to use this option in scripts, you can automatically download the latest release of a given font use:
+```sh
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/[INSERT FONT NAME HERE].tar.xz
+
+# example: 
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
+```
+
 ### `Option 3: Install Script`
 
 > Best option if you want to **automate** installing or for use in **scripts**.
